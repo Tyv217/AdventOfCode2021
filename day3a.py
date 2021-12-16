@@ -1,5 +1,5 @@
 def main():
-    f = open("day3.txt", "r")
+    f = open("input/day3.txt", "r")
     gamma = 0
     epsilon = 0
     lines = f.readlines()

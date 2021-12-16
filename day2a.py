@@ -1,7 +1,7 @@
 def main():
     horiz = 0
     depth = 0
-    f = open("day2.txt", "r")
+    f = open("input/day2.txt", "r")
     for x in f.readlines():
         x = x.rstrip()
         y = x.split(" ")

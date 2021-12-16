@@ -1,5 +1,5 @@
 def main():
-    f = open("day3.txt", "r")
+    f = open("input/day3.txt", "r")
     lines = f.readlines()
     bitPosition = 0
     while(len(lines) > 1):

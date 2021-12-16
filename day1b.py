@@ -1,5 +1,5 @@
 def main():
-    f = open("day1.txt", "r")
+    f = open("input/day1.txt", "r")
     counter = 0
     lines = f.readlines()
     tmp = int(lines[0].rstrip())

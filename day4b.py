@@ -11,7 +11,7 @@ def win(board, called):
     return False
 
 def main():
-    input = open("day4.txt").read().split("\n\n")
+    input = open("input/day4.txt").read().split("\n\n")
     called = set()
     boards = list([list(l.split()) for l in b.splitlines()] for b in input[1:])
     for n in input[0].split(","):
