@@ -1,5 +1,3 @@
-from pprint import pprint
-
 def return_mapping(signals):
     signal_mapping = {}
     remaining = set()
