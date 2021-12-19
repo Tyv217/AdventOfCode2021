@@ -12,7 +12,6 @@ def return_mapping(signals):
             signal_mapping[8] = set(char for char in x)
         else:
             remaining.add(x)
-    a = list(set(char for char in signal_mapping[7]) - set(char for char in signal_mapping[1]))[0]
     bd = list(set(char for char in signal_mapping[4]) - set(char for char in signal_mapping[1]))
     b = bd[0]
     d = bd[1]
